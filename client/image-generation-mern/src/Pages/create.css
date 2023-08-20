@@ -1,0 +1,6 @@
+.align{
+  margin-top: 20PX;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+  }
