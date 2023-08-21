@@ -24,7 +24,7 @@ const handleSubmit =async(e) => {
 
     try{
       //Creating new post
-      const response = await fetch('http://localhost:8080/api/post',{
+      const response = await fetch('https://imagegenai.onrender.com/api/post',{
         method: 'POST',
         headers:{
           'Content-Type':'application/json',

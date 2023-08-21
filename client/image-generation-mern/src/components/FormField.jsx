@@ -15,7 +15,7 @@ const FormField = ({labelName,value,name,type,placeholder,handleChange,isSurpris
     )}
   
     <div>
-    <input className="input is-primary" type={type} placeholder={placeholder}
+    <input className="input is-link" type={type} placeholder={placeholder}
 
       id={name}
       name={name}
